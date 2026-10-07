@@ -1,0 +1,16 @@
+Hệ điều hành sử dụng: Windows PowerShell
+Tạo thư mục
+Để tạo thư mục có tên drink_module, sử dụng lệnh:
+mkdir drink_module
+Sau khi chạy lệnh, thư mục drink_module sẽ được tạo trong thư mục hiện tại.
+Di chuyển vào thư mục vừa tạo
+Sử dụng lệnh cd để di chuyển vào thư mục drink_module:
+cd drink_module
+Tạo 2 file cùng lúc
+Để tạo hai file trống có tên coffee.txt và tea.txt, sử dụng lệnh:
+New-Item coffee.txt, tea.txt -ItemType File
+Sau khi thực hiện, trong thư mục drink_module sẽ có hai file coffee.txt và tea.txt.
+Các lệnh hoàn chỉnh:
+mkdir drink_module
+cd drink_module
+New-Item coffee.txt, tea.txt -ItemType File
